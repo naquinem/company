@@ -1,0 +1,132 @@
+//ProtectedLayout.jsx
+*{
+    margin: 0;
+    padding: 0;
+    .protected-layout{
+        display: grid;
+        grid-template-columns: 1fr;
+        .main-container{
+            display: grid;
+            grid-template-columns: 20rem 1fr;
+            margin-bottom: 3em;
+            .a-side{
+                border: 1px solid gray;
+                text-align: center;
+                height: 35em;
+            }
+        }
+        .footer{
+            border: 1px solid gray;
+            height: 22.5vh;
+            text-align: center;
+        }
+    }
+}
+//Home.jsx
+.home{
+    display: grid;
+    grid-template-columns: 1fr;
+    .increment-parts{
+        display: grid;
+        grid-template-columns: 10rem 10rem 1fr;
+        margin: 1em;
+        .dental{
+            text-align: center;
+            font-size: 20px;
+            font-weight: 700;
+            color: rgb(49, 48, 48);
+        }
+        .spares{
+            text-align: left;
+            font-size: 20px;
+            font-weight: 500;
+            color: rgb(49, 48, 48);
+        }
+        .add-btn{
+            margin-left: 21.7rem;
+            button{
+                padding: 12px;
+                border-radius: 10px;
+                color: white;
+                background-color: rgb(61, 61, 221);
+            }
+
+        }
+    }
+    .search-item{
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: .5em;
+        margin-bottom: 1em;
+        margin-left: 10em;
+        padding-left: 3.5em;
+        border: 1px solid gray;
+        border-radius: 10px;
+        height: 3em;
+        width: fit-content;
+        background-color: white;
+        .image-search{
+            position: absolute;
+            left: 1em;
+            width: 4em;
+            height: 2.5em;
+        }
+        .input-search{
+            width: 100%;
+            input{
+                width: 32.7em;
+                height: 2.5em;
+                font-size: 17px;
+                font-weight: 500;
+                border: none;
+                border-radius: 10px;
+                margin-right: 1em;
+                padding-left: 1px;
+            }
+            input:hover{
+                outline: none;
+            }
+            input:focus{
+                outline: none;
+            }
+        }
+    }
+    .spare-list{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 2em;
+        table{
+            thead{
+                tr{
+                    th{
+                        padding: 1em;
+                        background-color: rgb(24, 23, 23);
+                        border: 1px solid white;
+                        color: white;
+                    }
+                }
+            }
+            tbody{
+                tr{
+                    td{
+                        background-color: rgb(24, 23, 23);
+                        color: white;
+                        padding: 1em;
+                        border: 1px solid white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+//Aside.jsx
+
+
+
+//Footer.jsx
+

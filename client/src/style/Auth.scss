@@ -1,0 +1,182 @@
+$--black: rgb(80, 76, 76);
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{
+    outline: none;
+    height: 1.7em;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    margin-bottom: 4px;
+    padding-left: 15px;
+    color: gray;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 25em;
+    margin-left: 30em;
+    .form{
+        margin-top: 10px;
+        background: linear-gradient(to bottom right, #9095e4, #3fe6a3, rgb(54, 182, 182));
+        display: grid;
+        grid-template-columns: 1fr;
+        border: none;
+        border-style: 1px;
+        border-radius: 2em;
+        border-color: #ffffff;
+        width: 35rem;
+        padding: 4rem;
+        .title{
+            padding: 0;
+            text-align: center;
+            margin-bottom: 1em;
+            color: #ffffff;
+            h1{
+                font-size: 25px;
+                margin: 0;
+                padding: 4px;
+                text-align: center;
+                background: linear-gradient(to bottom right, #6068dd, #07442c, rgb(48, 189, 189));
+                -webkit-text-fill-color: transparent;
+                -webkit-background-clip: text;
+            }
+        }
+        .email{
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 1fr;
+            input{
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 5px;
+                margin-bottom: 10px;
+            }
+            input:hover {
+                outline: none;
+            }
+            input:focus {
+                outline: none;
+            }
+        }
+        .password{
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 10px;
+            input{
+                border: 2px solid rgb(255, 255, 255);
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            input:hover {
+                outline: none;
+            }
+            input:focus {
+                outline: none;
+            }
+        }
+        .password-confirm{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 1em;
+        }
+        .fname{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .lname{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .bdate{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .address{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .contact{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .email-register{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .password-register{
+            margin-top: 1px;
+            display: grid;
+            grid-template-columns: 1fr;
+            margin-bottom: 2px;
+        }
+        .btn{
+            background: linear-gradient(to bottom right, #9095e4, #3fe6a3, rgb(54, 182, 182));
+            font-size: 20px;
+            border: none;
+            color: rgb(44, 44, 44);
+        }
+        .btn:hover{
+            background: linear-gradient(to bottom right, #565b9b, #6ae6b4, rgb(16, 109, 109));
+            border: none;
+        }
+        .btn:focus{
+            outline: none;
+        }
+        .register{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 17rem;
+            text-align: center;
+            p{
+                color: $--black;
+            }
+            a{
+                color: $--black;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            a:hover{
+                color: black;
+            }
+        }
+        .login{
+            display: grid;
+            grid-template-columns: 1fr;
+            width: 17rem;
+            text-align: center;
+            p{
+                color: $--black;
+            }
+            a{
+                color: $--black;
+                font-size: 17px;
+                font-weight: 600;
+            }
+            a:hover{
+                color: black;
+            }
+        }
+        .error{
+            width: 15rem;
+            color: red;
+            margin-bottom: 1rem;
+            margin-left: 1rem;
+        }
+    }
+}
